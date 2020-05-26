@@ -11,11 +11,15 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </head>
 
 <body style="background-color: black;">
+    <div class="backtotop" onclick="backtotop()" id="btt">
+        <a><i class="fa fa-arrow-up" style="color: white; padding: 8px;"></i></a>
+    </div>
     <section class="navsection" id="home">
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-light ">
             <a class="navbar-brand" href="#">
                 <h3>Shadman<span>Afzal</span></h3>
             </a>
@@ -47,7 +51,9 @@
         <div class="container" id="intro">
             <div class="content " id="content ">
                 <h5>HEY THERE !</h5>
-                <h2 id="i ">I AM SHADMAN AFZAL</h2>
+                <div class="typewriter" style="margin-top: 20px; margin-bottom: 20px;">
+                    <h1>I AM SHADMAN AFZAL</h1>
+                </div>
                 <h4 style=" font-size: 25px; ">Web Designer and &lt;Coder&gt;</h4>
                 <a href="https://www.instagram.com/shadman_nawab "><i class="fa fa-instagram "></i></a>
                 <a href="https://github.com/Shadmanafzal786 "><i class="fa fa-github "></i></a>
@@ -176,7 +182,7 @@
     </section>
     <section class="pro-skills">
         <p style="margin-top: 60px; font-family: 'Balsamiq Sans', cursive; font-size: 40px; text-align: center; color: white;">Project</p>
-        <div class="container">
+        <div class="container mb-5">
 
             <h2 style="color: white;">Chit-Chat</h2>
             <h4 style="color: white;"> &lt; Flutter &GT;</h4>
@@ -185,40 +191,44 @@
         </div>
         <div class="wrapper">
             <div class="laptop row m-0 ">
-                <div class="col lg-6 md-6 sm-12 ">
-                    <img src="images/chit-chat 1.png" alt="" srcset="">
+                <div class="onhover">
+                    <div class="col lg-6 md-6 sm-12 ">
+                        <img src="images/chit-chat 1.png" alt="" srcset="">
+                    </div>
                 </div>
-                <div class="col lg-6 md-6 sm-12 ">
-                    <img src="images/chit-chat 2.png" alt="" srcset="">
+                <div class="onhover">
+                    <div class="col lg-6 md-6 sm-12 ">
+                        <img src="images/chit-chat 2.png" alt="" srcset="">
+                    </div>
                 </div>
 
 
             </div>
         </div>
-        <div class="container">
-
+        <div class="container mb-5">
             <h2 style="color: white; ">Notify</h2>
             <h4 style="color: white; "> &lt; Flutter &GT;</h4>
             <h5>
                 <p style="color: white; ">Create notes and lists, set time and place reminders, and check off your completed tasks. • Add a collaborator to your notes and lists </p>
             </h5>
             <a href=" " style="color: #f0860c; ">Source Code..</a>
-
-
         </div>
         <div class="wrapper">
             <div class="laptop row m-0 ">
-                <div class="col lg-6 md-6 sm-12 ">
-                    <img src="images/notify 1.jpg " alt=" " srcset=" ">
+                <div class="onhover">
+                    <div class="col lg-6 md-6 sm-12 ">
+                        <img src="images/notify 1.jpg " alt=" " srcset=" ">
+                    </div>
                 </div>
-                <div class="col lg-6 md-6 sm-12 ">
-                    <img src="images/notify 2.jpg " alt=" " srcset=" ">
+                <div class="onhover">
+                    <div class="col lg-6 md-6 sm-12 ">
+                        <img src="images/notify 2.jpg " alt=" " srcset=" ">
+                    </div>
                 </div>
 
 
             </div>
         </div>
-
         <div class="container">
             <div style="width: 100%; height: 150px; ">
                 <h2 style="color: white; ">Articles404</h2>
@@ -229,11 +239,16 @@
         </div>
         <div class="wrapper">
             <div class="laptop row m-0 ">
-                <div class="col lg-6 md-6 sm-12 ">
-                    <img src="images/article404 1.png " alt=" " srcset=" " style="margin-left: 50px; margin-right: 50px; ">
+                <div class="onhover">
+                    <div class="col lg-6 md-6 sm-12 ">
+                        <img src="images/article404 1.png " alt=" " srcset=" " style="margin-left: 50px; margin-right: 50px; ">
+                    </div>
                 </div>
-                <div class="col lg-6 md-6 sm-12 ">
-                    <img src="images/article404 2.png " alt=" " srcset=" " style="margin-left: 50px; margin-right: 50px; ">
+
+                <div class="onhover">
+                    <div class="col lg-6 md-6 sm-12 ">
+                        <img src="images/article404 2.png " alt=" " srcset=" " style="margin-left: 50px; margin-right: 50px; ">
+                    </div>
                 </div>
 
             </div>
@@ -241,7 +256,7 @@
 
     </section>
 
-    <footer class="footer-distributed " id="contact">
+    <footer class="footer-distributed " id="contact ">
 
         <div class="footer-left ">
 
@@ -283,7 +298,7 @@
         </div>
 
     </footer>
-
+    <script src="index.js "></script>
 </body>
 
 </html>
