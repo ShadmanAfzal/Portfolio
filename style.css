@@ -96,9 +96,7 @@ html {
     padding-top: 150px;
 }
 
-a :hover {
-    color: white;
-}
+
 
 h5 {
     margin-bottom: 15px;
@@ -478,13 +476,11 @@ span {
 
 .typewriter h1 {
     color: #fff;
-    /* font-family: monospace; */
     overflow: hidden;
     border-right: .15em solid #f0860c;
     white-space: nowrap;
     margin: 0 auto;
     font-size: 32px;
-    /* letter-spacing: .15em; */
     animation: typing 3.5s steps(30, end), blink-caret .5s step-end infinite;
 }
 
