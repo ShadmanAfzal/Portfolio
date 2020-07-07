@@ -72,13 +72,12 @@ html {
 .nav-item a {
     font-size: 18px;
     font-family: 'Kanit', sans-serif;
-    color: white !important;
+    color: white;
 }
 
 .nav-item :hover {
-    color: white;
     text-shadow: black;
-    border-bottom: solid;
+    border-bottom: solid #f0860c;
 }
 
 @media screen and (max-width:767px) {
@@ -444,7 +443,7 @@ span {
     height: 35px;
     cursor: pointer;
     background-color: #33383b;
-    border-radius: 2px;
+    border-radius: 50px;
     font-size: 20px;
     color: #ffffff;
     text-align: center;
