@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono&family=Kanit&display=swap');
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 .backtotop {
