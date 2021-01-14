@@ -9,4 +9,4 @@ It contains the source code of my portfolio. You can suggest suitbale changes if
 
 This portfolio is completely made to be responsive.
 
-Your changes are most welcomed. Please make a branch before contributing to the repo.
+Your changes are most welcomed. Please make a branch before contributing to the repository.
