@@ -88,8 +88,6 @@ html {
     padding-top: 150px;
 }
 
-
-
 h5 {
     margin-bottom: 15px;
     font-family: 'DM Mono', monospace;
@@ -135,8 +133,6 @@ section.about p {
     font-family: 'DM Mono', monospace;
     font-size: 20px;
 }
-
-
 
 @media all and (max-width: 500px) {
     section.about p {
@@ -503,82 +499,91 @@ span {
 ::-webkit-scrollbar {
     width: 5px;
     height: 5px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: black;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-      border-radius: 10px;
-    background: #f0860c;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #f0860c;
-  }
+}
 
-  .image-txt-container {
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: black;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #f0860c;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #f0860c;
+}
+
+.image-txt-container {
     display: flex;
     align-items: center;
     flex-direction: row;
-  }
+}
 
-  .experience-col {
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      color: white;
-  }
+.experience-col {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
 
-
-  ::-moz-selection { /* Code for Firefox */
+ ::-moz-selection {
+    /* Code for Firefox */
     color: white;
     background: #eba14d;
-  }
-  
-  ::selection {
+}
+
+ ::selection {
     color: white;
     background: #eba14d;
-  }
-  
-  /* Bar Graph Horizontal */
-  .bar-graph .year {
+}
+
+
+/* Bar Graph Horizontal */
+
+.bar-graph .year {
     -webkit-animation: fade-in-text 2.2s 0.1s forwards;
     -moz-animation: fade-in-text 2.2s 0.1s forwards;
     animation: fade-in-text 2.2s 0.1s forwards;
     opacity: 0;
-  }
-  
-  .bar-graph-horizontal {
+}
+
+.bar-graph-horizontal {
     max-width: 100%;
-  }
-  
-  .bar-graph-horizontal > div {
+}
+
+.bar-graph-horizontal>div {
     float: left;
     margin-bottom: 8px;
     width: 100%;
-  }
-  
-  .bar-graph-horizontal .year {
+}
+
+.bar-graph-horizontal .year {
     float: left;
     /* margin-top: 18px; */
     width: 100px;
-  }
-  
-  .bar-graph-horizontal .bar {
+}
+
+.bar-graph-horizontal .bar {
     border-radius: 3px;
-    height: 55px;
+    height: 40px;
     float: left;
     overflow: hidden;
     position: relative;
     width: 0;
-  }
-  
-  .bar-graph-one .bar::after {
+    padding: 10px;
+}
+
+.bar-graph-one .bar::after {
     -webkit-animation: fade-in-text 2.2s 0.1s forwards;
     -moz-animation: fade-in-text 2.2s 0.1s forwards;
     animation: fade-in-text 2.2s 0.1s forwards;
@@ -588,111 +593,112 @@ span {
     position: absolute;
     left: 10px;
     top: 17px;
-  }
-  
-  .bar-graph-one .bar-one .bar {
+}
+
+.bar-graph-one .bar-one .bar {
     background-color: #d17a16;
     -webkit-animation: show-bar-one 1.2s 0.1s forwards;
     -moz-animation: show-bar-one 1.2s 0.1s forwards;
     animation: show-bar-one 1.2s 0.1s forwards;
-  }
-  
-  .bar-graph-one .bar-two .bar {
+}
+
+.bar-graph-one .bar-two .bar {
     background-color: #c95e06;
     -webkit-animation: show-bar-two 1.2s 0.2s forwards;
     -moz-animation: show-bar-two 1.2s 0.2s forwards;
     animation: show-bar-two 1.2s 0.2s forwards;
-  }
-  
-  .bar-graph-one .bar-three .bar {
+}
+
+.bar-graph-one .bar-three .bar {
     background-color: #975407;
     -webkit-animation: show-bar-three 1.2s 0.3s forwards;
     -moz-animation: show-bar-three 1.2s 0.3s forwards;
     animation: show-bar-three 1.2s 0.3s forwards;
-  }
-  
-  .bar-graph-one .bar-four .bar {
+}
+
+.bar-graph-one .bar-four .bar {
     background-color: #ca4827;
     -webkit-animation: show-bar-four 1.2s 0.4s forwards;
     -moz-animation: show-bar-four 1.2s 0.4s forwards;
     animation: show-bar-four 1.2s 0.4s forwards;
-  }
+}
 
-  .bar-graph-one .bar-five .bar {
+.bar-graph-one .bar-five .bar {
     background-color: #e79a41;
     -webkit-animation: show-bar-four 1.2s 0.5s forwards;
     -moz-animation: show-bar-four 1.2s 0.5s forwards;
     animation: show-bar-five 1.2s 0.5s forwards;
-  }
+}
 
-  .bar-graph-one .bar-six .bar {
+.bar-graph-one .bar-six .bar {
     background-color: #ff8800;
     -webkit-animation: show-bar-four 1.2s 0.6s forwards;
     -moz-animation: show-bar-four 1.2s 0.6s forwards;
     animation: show-bar-six 1.2s 0.6s forwards;
-  }
-  
-  /* Bar Graph Horizontal Animations */
-  @-webkit-keyframes show-bar-one {
-    0% {
-      width: 0;
-    }
-    100% {
-      width: 80%;
-    }
-  }
-  
-  @-webkit-keyframes show-bar-two {
-    0% {
-      width: 0;
-    }
-    100% {
-      width: 90%;
-    }
-  }
-  
-  @-webkit-keyframes show-bar-three {
-    0% {
-      width: 0;
-    }
-    100% {
-      width: 95%;
-    }
-  }
-  
-  @-webkit-keyframes show-bar-four {
-    0% {
-      width: 0;
-    }
-    100% {
-      width: 85%;
-    }
-  }
+}
 
-  @-webkit-keyframes show-bar-five {
-    0% {
-      width: 0;
-    }
-    100% {
-      width: 75%;
-    }
-  }
 
-  @-webkit-keyframes show-bar-six {
+/* Bar Graph Horizontal Animations */
+
+@-webkit-keyframes show-bar-one {
     0% {
-      width: 0;
+        width: 0;
     }
     100% {
-      width: 93%;
+        width: 80%;
     }
-  }
-  
-  @-webkit-keyframes fade-in-text {
+}
+
+@-webkit-keyframes show-bar-two {
     0% {
-      opacity: 0;
+        width: 0;
     }
     100% {
-      opacity: 1;
+        width: 90%;
     }
-  }
-  
+}
+
+@-webkit-keyframes show-bar-three {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 95%;
+    }
+}
+
+@-webkit-keyframes show-bar-four {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 85%;
+    }
+}
+
+@-webkit-keyframes show-bar-five {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 75%;
+    }
+}
+
+@-webkit-keyframes show-bar-six {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 93%;
+    }
+}
+
+@-webkit-keyframes fade-in-text {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
